@@ -1,0 +1,35 @@
+@keyframes glitch01 {
+    0% {
+        transform: translate(-2px, 2px);
+    }
+    25% {
+        transform: translate(-4px, -4px);
+    }
+    50% {
+        transform: translate(2px, 2px);
+    }
+    75% {
+        transform: translate(2px, -4px);
+    }
+    100% {
+        transform: translate(-2px, 2px);
+    }
+}
+
+@keyframes glitch02 {
+    0% {
+        transform: translate(-2px, 2px);
+    }
+    25% {
+        transform: translate(-2px, -2px);
+    }
+    50% {
+        transform: translate(2px, 2px);
+    }
+    75% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(-2px, 2px);
+    }
+}
